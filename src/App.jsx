@@ -24,7 +24,7 @@ const Navigation = ({ page, setPage, scrolled }) => {
             </div>
           </div>
           <div>
-            <h1 className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-white' : 'text-white'}`}>Okonkwo & Partners</h1>
+            <h1 className={`text-2xl font-bold tracking-tight ${scrolled ? 'text-white' : 'text-white'}`}>Hephzibah Solicitors</h1>
             <p className="text-xs font-medium bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">Excellence in Law</p>
           </div>
         </div>
@@ -376,7 +376,7 @@ const ContactPage = () => {
                 {[
                   { icon: MapPin, title: 'Lagos Office', text: '15 Broad Street, Lagos Island' },
                   { icon: Phone, title: 'Phone', text: '+234 1 234 5678' },
-                  { icon: Mail, title: 'Email', text: 'info@okonkwolaw.com.ng' }
+                  { icon: Mail, title: 'Email', text: 'info@Hephzibah.com.ng' }
                 ].map((item, i) => (
                   <div key={i} className="flex items-start space-x-4">
                     <div className="p-3 bg-gradient-to-br from-violet-500 to-fuchsia-500 rounded-xl">
@@ -418,7 +418,7 @@ const Footer = ({ setPage }) => (
             <div className="bg-gradient-to-br from-violet-500 to-fuchsia-500 p-3 rounded-2xl">
               <Scale className="w-7 h-7 text-white" />
             </div>
-            <span className="text-2xl font-bold text-white">Okonkwo & Partners</span>
+            <span className="text-2xl font-bold text-white">Hephzibah Solicitors</span>
           </div>
           <p className="text-gray-400 max-w-md">Nigeria's most innovative law firm, delivering excellence since 1995.</p>
         </div>
@@ -435,12 +435,12 @@ const Footer = ({ setPage }) => (
           <ul className="space-y-2 text-gray-400">
             <li>Lagos, Nigeria</li>
             <li>+234 1 234 5678</li>
-            <li>info@okonkwolaw.com.ng</li>
+            <li>info@Hepzibah.com.ng</li>
           </ul>
         </div>
       </div>
       <div className="text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Okonkwo & Partners. All rights reserved.
+        &copy; {new Date().getFullYear()} Hephzibah Solicitors. All rights reserved.
       </div>
     </div>
   </footer>
